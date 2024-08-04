@@ -1,0 +1,19 @@
+{
+    "name": RCS ONE SHOP,
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu", 
+    "features": {
+        "ghcr.io/devcontainers-contrib/features/activemq-sdkman:2": {
+            "version": "latest",
+            "jdkVersion": "17",
+            "jdkDistro": "ms"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "redhat.java"
+            ]
+        }
+    }
+}
